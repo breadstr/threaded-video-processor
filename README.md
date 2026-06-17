@@ -1,6 +1,6 @@
 # Media Extractor
 
-A high-performance Python automation tool designed to optimize media processing pipelines on multi-core systems. The script concurrently splits video files into independent audio tracks and extracts visual mid-point thumbnails.
+A high-performance Python automation tool designed to optimize media processing pipelines on multi-core systems. The script concurrently splits mp4 video files into independent audio tracks and extracts visual mid-point thumbnails.
 
 ## Core Architecture & Concepts
 * **Thread-Level Concurrency:** Utilizes `ThreadPoolExecutor` mapped across 4 worker threads to maximize CPU utilization on 4-core hardware setups without context-switching bloat. Rather than using `Pool` (which duplicates the whole Python process in memory) using `ThreadPoolExecutor` and leting `ffmpeg` do all the heavy lifting and actual rendering in its own isolated OS processes

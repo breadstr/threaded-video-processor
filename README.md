@@ -16,4 +16,4 @@ A high-performance Python automation tool designed to optimize media processing 
 ## Requirements
 1. **FFmpeg:** Requires proper `ffmpeg` installation added to your system's PATH.
 2. **Python:** `Python` 3.x or higher.
-3. **External Libraries:** Requires `moviepy` for video metadata calculations.
+3. **External Libraries:** Requires `moviepy` for video metadata calculations. `pip install moviepy`
